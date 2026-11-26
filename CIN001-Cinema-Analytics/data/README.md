@@ -14,18 +14,29 @@ All datasets in this case are synthetic and intended for learning and portfolio 
 
 | Artifact | Format | Rows / size | Purpose |
 |---|---|---:|---|
-| `CIN001_sales_operations(3).csv` | CSV | 42,021 rows; ~21.4 MB | Latest sales source; reconciles to the premium-format workbook's row and show counts |
+| `CIN001_clean_sales_transactions.csv` | CSV | 41,917 rows; ~18.3 MB | Sales-only extract; one group-booking transaction per row |
+| `CIN001_sales_operations(3).csv` | CSV | 42,021 rows; ~21.4 MB | Latest raw ledger; contains both 41,917 Group_Booking rows and 104 Show_Only rows |
 | `CIN001_clean_show_schedule.csv` | CSV | 10,917 unique shows; ~4.7 MB | Show-level schedule source |
 | `CIN001_Case1_Premium_Format_Analysis.xlsx` | Excel | ~50 KB | Monthly IMAX vs Standard analysis and assumptions |
 | `CIN001_cleaning_and_analysis_summary.xlsx` | Excel | ~14 KB | Cleaning checks and reconciliations |
 | `CIN001_financials_operations(1).xlsx` | Excel | ~1.66 MB | Screen-day operating and financial source workbook |
 
-The older `CIN001_clean_sales_transactions.csv` contains 41,917 rows and 10,813 distinct shows. It is 104 rows short of the later sales source and does not reconcile to the latest premium-format workbook. It is intentionally excluded from publication until the cleaning logic and missing rows are resolved.
+## Sales-to-schedule reconciliation
+
+The latest raw sales ledger has 42,021 rows, but it is a mixed record set rather than a pure transaction fact:
+
+- 41,917 rows are `Group_Booking` sales transactions.
+- 104 rows are `Show_Only` records with zero tickets sold, zero attendance, zero box-office revenue, and zero concessions revenue.
+- Of those 104 show-only records, 92 are marked `Cancelled` and 12 are marked `Completed` with zero attendance.
+- The cleaned sales extract contains all 41,917 `Group_Booking` records and no `Show_Only` rows. Its 104-row difference from the raw ledger is therefore explained by record type, not unexplained missing sales.
+- The full show schedule contains 10,917 unique `Show_ID` values. The 104 show-only records are represented at show grain and must not be appended to the sales transaction fact.
+
+Use `CIN001_clean_sales_transactions.csv` as the sales-only candidate, subject to the remaining reconciliation and validation checks. Keep the raw mixed ledger as source evidence.
 
 ## Grain and safe aggregation
 
 - **Sales fact:** one group-booking transaction per row. Ticket quantities and transaction revenue can be aggregated at this grain.
-- **Show schedule:** one row per unique `Show_ID`. Use this grain for show counts, attendance, capacity, and show-level occupancy.
+- **Show schedule:** one row per unique `Show_ID`. Use this grain for show counts, attendance, capacity, show-level occupancy, and cancelled/completed show counts.
 - **Financial fact:** one screen per calendar day. Keep it separate from the transaction fact and connect through conformed dimensions.
 - **Monthly analysis layer:** one row per month and screen format in the premium-format analysis workbook.
 
