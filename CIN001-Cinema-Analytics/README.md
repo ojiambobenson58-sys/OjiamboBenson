@@ -23,6 +23,11 @@ Does the premium IMAX format generate enough additional retained revenue and con
 - `power-bi/` — Power BI model, DAX, and report documentation
 - `reports/` — executive findings and recommendations
 
+## Data validation
+The corrected sales extract contains **41,917 Group_Booking transactions**. The raw mixed ledger contains an additional **104 Show_Only records** (92 cancelled and 12 completed with zero attendance); these are not sales transactions. The sales-to-financial reconciliation matches five monetary measures across 3,277 screen-days. The remaining 11 financial screen-days have zero revenue and all scheduled screenings cancelled.
+
+See [validated workbook notes](documentation/validated-workbook-notes.md) for the reconciliation totals, row-grain safeguards, and correction details. The corrected Excel workbook is prepared as `CIN001_Case1_Premium_Format_Analysis_validated.xlsx`; its binary file still needs to be uploaded into the `excel/` folder.
+
 ## Modelling rules
 1. Sales rows represent ticket-booking transactions, not unique shows.
 2. Attendance and auditorium capacity repeat across transactions for a show. Aggregate them once per `Show_ID`.
