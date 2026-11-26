@@ -1,0 +1,163 @@
+<PARSED TEXT FOR SHEET: 1 / 1 TABS
+TAB NAME: analytical_question_bank.csv>
+index,Question_ID,Domain,Difficulty,Business_Question,Suggested_Tool
+0,Q001,Box office and movie performance,Intermediate,Which movie generated the highest gross box office revenue?,Excel / MySQL / Power BI / Python
+1,Q002,Box office and movie performance,Intermediate,Which movie generated the highest retained box office revenue after distributor share?,Excel / MySQL / Power BI / Python
+2,Q003,Box office and movie performance,Intermediate,Which movie sold the most paid tickets?,Excel / MySQL / Power BI / Python
+3,Q004,Box office and movie performance,Intermediate,Which genre generated the highest gross box office revenue?,Excel / MySQL / Power BI / Python
+4,Q005,Box office and movie performance,Intermediate,Which genre attracted the highest attendance?,Excel / MySQL / Power BI / Python
+5,Q006,Box office and movie performance,Intermediate,Which movie had the highest average ticket price?,Excel / MySQL / Power BI / Python
+6,Q007,Box office and movie performance,Intermediate,Which movie achieved the highest average occupancy?,Excel / MySQL / Power BI / Python
+7,Q008,Box office and movie performance,Intermediate,Which movie generated the highest revenue per recorded screening?,Excel / MySQL / Power BI / Python
+8,Q009,Box office and movie performance,Intermediate,Which films performed best during opening-weekend periods?,Excel / MySQL / Power BI / Python
+9,Q010,Box office and movie performance,Intermediate,Which movies experienced the steepest attendance decline after release?,Excel / MySQL / Power BI / Python
+10,Q011,Box office and movie performance,Intermediate,Which movie titles underperformed despite premium ticket pricing?,Excel / MySQL / Power BI / Python
+11,Q012,Box office and movie performance,Intermediate,Which cinema earned the largest share of total box office revenue?,Excel / MySQL / Power BI / Python
+12,Q013,Box office and movie performance,Intermediate,How does IMAX performance compare with standard-format screenings?,Excel / MySQL / Power BI / Python
+13,Q014,Box office and movie performance,Intermediate,Which time slot generates the highest box office revenue?,Excel / MySQL / Power BI / Python
+14,Q015,Box office and movie performance,Intermediate,How does movie performance vary by cinema location?,Excel / MySQL / Power BI / Python
+15,Q016,Box office and movie performance,Intermediate,Do action and adventure films outperform drama films on weekends?,Excel / MySQL / Power BI / Python
+16,Q017,Box office and movie performance,Intermediate,Which films have the highest distributor-share burden?,Excel / MySQL / Power BI / Python
+17,Q018,Box office and movie performance,Intermediate,How much box office revenue is retained by exhibitors on average?,Excel / MySQL / Power BI / Python
+18,Q019,Box office and movie performance,Intermediate,Which films have high occupancy but low revenue per seat?,Excel / MySQL / Power BI / Python
+19,Q020,Box office and movie performance,Intermediate,Can genre and release timing explain box office performance?,Excel / MySQL / Power BI / Python
+20,Q021,Revenue growth and commercial performance,Intermediate,What is total net revenue by cinema and calendar year?,Excel / MySQL / Power BI / Python
+21,Q022,Revenue growth and commercial performance,Intermediate,What is month-over-month net revenue growth for each cinema?,Excel / MySQL / Power BI / Python
+22,Q023,Revenue growth and commercial performance,Intermediate,What is year-over-year revenue growth for each cinema?,Excel / MySQL / Power BI / Python
+23,Q024,Revenue growth and commercial performance,Intermediate,Which cinema has the highest compound annual growth rate?,Excel / MySQL / Power BI / Python
+24,Q025,Revenue growth and commercial performance,Intermediate,Which cinema has the highest revenue per screen?,Excel / MySQL / Power BI / Python
+25,Q026,Revenue growth and commercial performance,Intermediate,Which cinema has the highest revenue per paid ticket?,Excel / MySQL / Power BI / Python
+26,Q027,Revenue growth and commercial performance,Intermediate,What proportion of net revenue comes from box office versus concessions?,Excel / MySQL / Power BI / Python
+27,Q028,Revenue growth and commercial performance,Intermediate,Which months produce the highest and lowest revenue?,Excel / MySQL / Power BI / Python
+28,Q029,Revenue growth and commercial performance,Intermediate,How different are weekend and weekday revenues?,Excel / MySQL / Power BI / Python
+29,Q030,Revenue growth and commercial performance,Intermediate,Which cinema has the most volatile monthly revenue?,Excel / MySQL / Power BI / Python
+30,Q031,Revenue growth and commercial performance,Intermediate,Are revenues growing faster than operating expenses?,Excel / MySQL / Power BI / Python
+31,Q032,Revenue growth and commercial performance,Intermediate,Which cinema has sustained negative revenue growth?,Excel / MySQL / Power BI / Python
+32,Q033,Revenue growth and commercial performance,Intermediate,What is each cinema's contribution to chain-wide revenue?,Excel / MySQL / Power BI / Python
+33,Q034,Revenue growth and commercial performance,Intermediate,Which cinema has the strongest revenue recovery after weak months?,Excel / MySQL / Power BI / Python
+34,Q035,Revenue growth and commercial performance,Intermediate,How does revenue vary by school-holiday and year-end periods?,Excel / MySQL / Power BI / Python
+35,Q036,Revenue growth and commercial performance,Intermediate,Which cinema has the strongest evening-session revenue?,Excel / MySQL / Power BI / Python
+36,Q037,Revenue growth and commercial performance,Intermediate,How much revenue is concentrated in the top five movie titles?,Excel / MySQL / Power BI / Python
+37,Q038,Revenue growth and commercial performance,Intermediate,Which cinema has the highest average daily revenue?,Excel / MySQL / Power BI / Python
+38,Q039,Revenue growth and commercial performance,Intermediate,How does revenue per screening change over time?,Excel / MySQL / Power BI / Python
+39,Q040,Revenue growth and commercial performance,Intermediate,Can monthly attendance explain monthly revenue growth?,Excel / MySQL / Power BI / Python
+40,Q041,Concessions and inventory economics,Intermediate,Which cinema generates the highest concessions revenue?,Excel / MySQL / Power BI / Python
+41,Q042,Concessions and inventory economics,Intermediate,Which product category contributes the most concessions revenue?,Excel / MySQL / Power BI / Python
+42,Q043,Concessions and inventory economics,Intermediate,Which concession product sells the most units?,Excel / MySQL / Power BI / Python
+43,Q044,Concessions and inventory economics,Intermediate,Which cinema has the highest concessions gross margin?,Excel / MySQL / Power BI / Python
+44,Q045,Concessions and inventory economics,Intermediate,What is average concessions revenue per attendee?,Excel / MySQL / Power BI / Python
+45,Q046,Concessions and inventory economics,Intermediate,What is the popcorn-to-beverage unit ratio?,Excel / MySQL / Power BI / Python
+46,Q047,Concessions and inventory economics,Intermediate,Which customer segment has the highest concessions spend proxy?,Excel / MySQL / Power BI / Python
+47,Q048,Concessions and inventory economics,Intermediate,How does concessions revenue correlate with attendance?,Excel / MySQL / Power BI / Python
+48,Q049,Concessions and inventory economics,Intermediate,Which days generate the highest concessions revenue?,Excel / MySQL / Power BI / Python
+49,Q050,Concessions and inventory economics,Intermediate,How much gross profit is generated by popcorn?,Excel / MySQL / Power BI / Python
+50,Q051,Concessions and inventory economics,Intermediate,How much gross profit is generated by beverages?,Excel / MySQL / Power BI / Python
+51,Q052,Concessions and inventory economics,Intermediate,How much gross profit is generated by food items?,Excel / MySQL / Power BI / Python
+52,Q053,Concessions and inventory economics,Intermediate,Which cinemas have unusually low concessions revenue per ticket?,Excel / MySQL / Power BI / Python
+53,Q054,Concessions and inventory economics,Intermediate,Do premium-format customers spend more on concessions?,Excel / MySQL / Power BI / Python
+54,Q055,Concessions and inventory economics,Intermediate,Which promotions are associated with higher concessions revenue?,Excel / MySQL / Power BI / Python
+55,Q056,Concessions and inventory economics,Intermediate,What is the estimated product mix by cinema?,Excel / MySQL / Power BI / Python
+56,Q057,Concessions and inventory economics,Intermediate,How much could gross profit rise if average spend increased by 10%?,Excel / MySQL / Power BI / Python
+57,Q058,Concessions and inventory economics,Intermediate,Which cinemas show the strongest concessions-to-box-office ratio?,Excel / MySQL / Power BI / Python
+58,Q059,Concessions and inventory economics,Intermediate,How does concessions performance vary by month?,Excel / MySQL / Power BI / Python
+59,Q060,Concessions and inventory economics,Intermediate,Which product bundles should management test?,Excel / MySQL / Power BI / Python
+60,Q061,Screen and projection operations,Intermediate,Which cinema has the highest screen utilization rate?,Excel / MySQL / Power BI / Python
+61,Q062,Screen and projection operations,Intermediate,Which cinema has the lowest screen utilization rate?,Excel / MySQL / Power BI / Python
+62,Q063,Screen and projection operations,Intermediate,Which month has the highest average screen utilization?,Excel / MySQL / Power BI / Python
+63,Q064,Screen and projection operations,Intermediate,Which cinema records the most projection incidents?,Excel / MySQL / Power BI / Python
+64,Q065,Screen and projection operations,Intermediate,Which cinema loses the most hours to equipment downtime?,Excel / MySQL / Power BI / Python
+65,Q066,Screen and projection operations,Intermediate,What is average downtime per projection incident?,Excel / MySQL / Power BI / Python
+66,Q067,Screen and projection operations,Intermediate,Which cinema has the highest maintenance cost per screen?,Excel / MySQL / Power BI / Python
+67,Q068,Screen and projection operations,Intermediate,How does screen utilization relate to revenue per screen?,Excel / MySQL / Power BI / Python
+68,Q069,Screen and projection operations,Intermediate,Which cinema has the highest electricity cost per screen-hour used?,Excel / MySQL / Power BI / Python
+69,Q070,Screen and projection operations,Intermediate,How does downtime relate to operating profit?,Excel / MySQL / Power BI / Python
+70,Q071,Screen and projection operations,Intermediate,Which cinema has the highest revenue per available screen-hour?,Excel / MySQL / Power BI / Python
+71,Q072,Screen and projection operations,Intermediate,Which months show the greatest operational inefficiency?,Excel / MySQL / Power BI / Python
+72,Q073,Screen and projection operations,Intermediate,Does higher screen utilization always correspond to higher profitability?,Excel / MySQL / Power BI / Python
+73,Q074,Screen and projection operations,Intermediate,Which cinemas should review their screening schedules?,Excel / MySQL / Power BI / Python
+74,Q075,Screen and projection operations,Intermediate,How much maintenance expenditure is incurred per screen annually?,Excel / MySQL / Power BI / Python
+75,Q076,Screen and projection operations,Intermediate,Which cinema has the highest employee count per screen?,Excel / MySQL / Power BI / Python
+76,Q077,Screen and projection operations,Intermediate,How does electricity cost vary with screen-hours used?,Excel / MySQL / Power BI / Python
+77,Q078,Screen and projection operations,Intermediate,Which cinema has the largest gap between available and used screen hours?,Excel / MySQL / Power BI / Python
+78,Q079,Screen and projection operations,Intermediate,Can downtime be used to flag operational risk?,Excel / MySQL / Power BI / Python
+79,Q080,Screen and projection operations,Intermediate,Which operational KPI best explains cinema-level profit variation?,Excel / MySQL / Power BI / Python
+80,Q081,Financial health and profitability,Intermediate,Which cinemas are profitable over the full 60-month period?,Excel / MySQL / Power BI / Python
+81,Q082,Financial health and profitability,Intermediate,Which cinemas report an operating loss in the latest month?,Excel / MySQL / Power BI / Python
+82,Q083,Financial health and profitability,Intermediate,Which cinema has the highest cumulative operating profit?,Excel / MySQL / Power BI / Python
+83,Q084,Financial health and profitability,Intermediate,Which cinema has the lowest operating margin?,Excel / MySQL / Power BI / Python
+84,Q085,Financial health and profitability,Intermediate,What is operating margin by cinema and year?,Excel / MySQL / Power BI / Python
+85,Q086,Financial health and profitability,Intermediate,Which cost category consumes the largest share of revenue?,Excel / MySQL / Power BI / Python
+86,Q087,Financial health and profitability,Intermediate,Which cinema has the highest rent-to-revenue ratio?,Excel / MySQL / Power BI / Python
+87,Q088,Financial health and profitability,Intermediate,Which cinema has the highest electricity-to-revenue ratio?,Excel / MySQL / Power BI / Python
+88,Q089,Financial health and profitability,Intermediate,Are payroll costs increasing faster than revenue?,Excel / MySQL / Power BI / Python
+89,Q090,Financial health and profitability,Intermediate,Which cinema has the highest marketing expense ratio?,Excel / MySQL / Power BI / Python
+90,Q091,Financial health and profitability,Intermediate,What is the average daily operating break-even revenue?,Excel / MySQL / Power BI / Python
+91,Q092,Financial health and profitability,Intermediate,Which cinema has the highest cumulative operating loss?,Excel / MySQL / Power BI / Python
+92,Q093,Financial health and profitability,Intermediate,How much would expenses need to fall for loss-making periods to break even?,Excel / MySQL / Power BI / Python
+93,Q094,Financial health and profitability,Intermediate,Which cinemas have the weakest cash balance trend?,Excel / MySQL / Power BI / Python
+94,Q095,Financial health and profitability,Intermediate,How do distributor shares affect exhibitor profitability?,Excel / MySQL / Power BI / Python
+95,Q096,Financial health and profitability,Intermediate,What is the relationship between concessions margin and operating profit?,Excel / MySQL / Power BI / Python
+96,Q097,Financial health and profitability,Intermediate,Which cinema has the highest operating cost per attendee?,Excel / MySQL / Power BI / Python
+97,Q098,Financial health and profitability,Intermediate,Which months show the largest operating losses?,Excel / MySQL / Power BI / Python
+98,Q099,Financial health and profitability,Intermediate,Which cinema has the strongest operating leverage?,Excel / MySQL / Power BI / Python
+99,Q100,Financial health and profitability,Intermediate,Which cinema should management prioritize for a cost review?,Excel / MySQL / Power BI / Python
+100,Q101,Customer and marketing analytics,Intermediate,Which customer segment contributes the most paid attendance?,Excel / MySQL / Power BI / Python
+101,Q102,Customer and marketing analytics,Intermediate,Which customer segment has the highest average ticket price?,Excel / MySQL / Power BI / Python
+102,Q103,Customer and marketing analytics,Intermediate,Which payment method is most frequently used?,Excel / MySQL / Power BI / Python
+103,Q104,Customer and marketing analytics,Intermediate,Which promotion is most frequently applied?,Excel / MySQL / Power BI / Python
+104,Q105,Customer and marketing analytics,Intermediate,Which promotion is associated with the highest average ticket revenue?,Excel / MySQL / Power BI / Python
+105,Q106,Customer and marketing analytics,Intermediate,How does student promotion usage vary by weekday?,Excel / MySQL / Power BI / Python
+106,Q107,Customer and marketing analytics,Intermediate,Which time slot attracts the most attendees?,Excel / MySQL / Power BI / Python
+107,Q108,Customer and marketing analytics,Intermediate,Which customer segment has the highest attendance share?,Excel / MySQL / Power BI / Python
+108,Q109,Customer and marketing analytics,Intermediate,Do family-oriented segments attend more during school holidays?,Excel / MySQL / Power BI / Python
+109,Q110,Customer and marketing analytics,Intermediate,Which cinemas have the highest complimentary-ticket rate?,Excel / MySQL / Power BI / Python
+110,Q111,Customer and marketing analytics,Intermediate,How do discounts affect average ticket price?,Excel / MySQL / Power BI / Python
+111,Q112,Customer and marketing analytics,Intermediate,Which cinemas rely most heavily on promotions?,Excel / MySQL / Power BI / Python
+112,Q113,Customer and marketing analytics,Intermediate,Which cinema has the strongest weekend attendance uplift?,Excel / MySQL / Power BI / Python
+113,Q114,Customer and marketing analytics,Advanced,Can customer segment and time slot predict ticket demand?,Excel / MySQL / Power BI / Python
+114,Q115,Customer and marketing analytics,Intermediate,Which promotional categories should be tested for incremental profitability?,Excel / MySQL / Power BI / Python
+115,Q116,"Growth, strategy and investment",Intermediate,Which cinema should receive the next capital investment?,Excel / MySQL / Power BI / Python
+116,Q117,"Growth, strategy and investment",Intermediate,Which cinema has the strongest five-year revenue growth?,Excel / MySQL / Power BI / Python
+117,Q118,"Growth, strategy and investment",Intermediate,Which cinema has the strongest five-year profit trend?,Excel / MySQL / Power BI / Python
+118,Q119,"Growth, strategy and investment",Intermediate,Which cinema has the weakest financial resilience?,Excel / MySQL / Power BI / Python
+119,Q120,"Growth, strategy and investment",Intermediate,Which cinema generates the most profit per screen?,Excel / MySQL / Power BI / Python
+120,Q121,"Growth, strategy and investment",Intermediate,Which cinema has the strongest concessions opportunity?,Excel / MySQL / Power BI / Python
+121,Q122,"Growth, strategy and investment",Intermediate,Which cinema could benefit most from a screen-schedule redesign?,Excel / MySQL / Power BI / Python
+122,Q123,"Growth, strategy and investment",Intermediate,Which cinema should consider reducing low-demand sessions?,Excel / MySQL / Power BI / Python
+123,Q124,"Growth, strategy and investment",Intermediate,Which cinema has the greatest growth in attendance?,Excel / MySQL / Power BI / Python
+124,Q125,"Growth, strategy and investment",Intermediate,Which cinema is most exposed to seasonality?,Excel / MySQL / Power BI / Python
+125,Q126,"Growth, strategy and investment",Intermediate,Which cinema has the best balance of revenue growth and margin?,Excel / MySQL / Power BI / Python
+126,Q127,"Growth, strategy and investment",Intermediate,Which cinema should management investigate for potential turnaround?,Excel / MySQL / Power BI / Python
+127,Q128,"Growth, strategy and investment",Intermediate,How does premium pricing affect attendance and retained revenue?,Excel / MySQL / Power BI / Python
+128,Q129,"Growth, strategy and investment",Intermediate,Which cinema has the strongest evidence for capacity expansion?,Excel / MySQL / Power BI / Python
+129,Q130,"Growth, strategy and investment",Intermediate,Which cinema has the highest revenue concentration risk?,Excel / MySQL / Power BI / Python
+130,Q131,"Statistics, forecasting and machine learning",Intermediate,Is weekend attendance statistically higher than weekday attendance?,Excel / MySQL / Power BI / Python
+131,Q132,"Statistics, forecasting and machine learning",Advanced,Is average occupancy significantly different across cinema types?,Excel / MySQL / Power BI / Python
+132,Q133,"Statistics, forecasting and machine learning",Advanced,Do premium-format screenings have significantly higher ticket prices?,Excel / MySQL / Power BI / Python
+133,Q134,"Statistics, forecasting and machine learning",Intermediate,Is concessions revenue positively correlated with attendance?,Excel / MySQL / Power BI / Python
+134,Q135,"Statistics, forecasting and machine learning",Advanced,Does screen utilization significantly predict daily revenue?,Excel / MySQL / Power BI / Python
+135,Q136,"Statistics, forecasting and machine learning",Intermediate,Which variables explain the most variation in operating profit?,Excel / MySQL / Power BI / Python
+136,Q137,"Statistics, forecasting and machine learning",Advanced,Can a regression model forecast monthly net revenue?,Excel / MySQL / Power BI / Python
+137,Q138,"Statistics, forecasting and machine learning",Advanced,Can a classification model predict whether a cinema-day will make an operating loss?,Excel / MySQL / Power BI / Python
+138,Q139,"Statistics, forecasting and machine learning",Advanced,"Can a model classify cinemas into high-, medium- and low-performing groups?",Excel / MySQL / Power BI / Python
+139,Q140,"Statistics, forecasting and machine learning",Advanced,Can K-means identify distinct cinema performance clusters?,Excel / MySQL / Power BI / Python
+140,Q141,"Statistics, forecasting and machine learning",Intermediate,Can transaction patterns support customer segmentation?,Excel / MySQL / Power BI / Python
+141,Q142,"Statistics, forecasting and machine learning",Advanced,Can anomaly detection identify unusual expense spikes?,Excel / MySQL / Power BI / Python
+142,Q143,"Statistics, forecasting and machine learning",Advanced,Can a time-series model forecast attendance for the next six months?,Excel / MySQL / Power BI / Python
+143,Q144,"Statistics, forecasting and machine learning",Advanced,"How accurate are naive, moving-average and seasonal forecasting baselines?",Excel / MySQL / Power BI / Python
+144,Q145,"Statistics, forecasting and machine learning",Advanced,"Can genre, time slot and ticket price predict occupancy?",Excel / MySQL / Power BI / Python
+145,Q146,"Statistics, forecasting and machine learning",Advanced,Which features are most important in a profit-risk model?,Excel / MySQL / Power BI / Python
+146,Q147,"Statistics, forecasting and machine learning",Advanced,Can a model identify months with elevated operational risk?,Excel / MySQL / Power BI / Python
+147,Q148,"Statistics, forecasting and machine learning",Advanced,Does adding lagged revenue improve forecast accuracy?,Excel / MySQL / Power BI / Python
+148,Q149,"Statistics, forecasting and machine learning",Advanced,How does model performance vary between cinemas?,Excel / MySQL / Power BI / Python
+149,Q150,"Statistics, forecasting and machine learning",Advanced,Which analytical model provides the most actionable management insight?,Excel / MySQL / Power BI / Python
+150,Q151,Additional management questions,Advanced,Which cinema has the highest monthly attendance growth rate?,Excel / MySQL / Power BI / Python
+151,Q152,Additional management questions,Advanced,What share of chain revenue is contributed by the top three cinemas?,Excel / MySQL / Power BI / Python
+152,Q153,Additional management questions,Advanced,Which cinema has the greatest month-to-month profit volatility?,Excel / MySQL / Power BI / Python
+153,Q154,Additional management questions,Advanced,What is the relationship between average ticket price and paid attendance?,Excel / MySQL / Power BI / Python
+154,Q155,Additional management questions,Advanced,Which genre has the strongest concessions attachment proxy?,Excel / MySQL / Power BI / Python
+155,Q156,Additional management questions,Advanced,Which cinema has the highest operating expense per available screen-hour?,Excel / MySQL / Power BI / Python
+156,Q157,Additional management questions,Advanced,Which cinema has the most consistent operating margin?,Excel / MySQL / Power BI / Python
+157,Q158,Additional management questions,Advanced,Which cinema has the highest percentage of loss-making days?,Excel / MySQL / Power BI / Python
+158,Q159,Additional management questions,Advanced,What is the impact of year-end seasonality on daily attendance?,Excel / MySQL / Power BI / Python
+159,Q160,Additional management questions,Advanced,Which cinema has the largest gap between gross and retained box office?,Excel / MySQL / Power BI / Python
