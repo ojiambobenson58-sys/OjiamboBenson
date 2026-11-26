@@ -50,6 +50,8 @@ There are 3,277 matching Date + Screen_ID combinations and 11 financial screen-d
 
 The premium-format workbook contains these sheets: START_HERE, Format_Summary, Monthly_KPIs, Data_Reconciliation, Price_Sensitivity, Efficiency_Scenario, Assumptions, Risk_Register, and PowerBI_Measures.
 
+A corrected local portfolio copy, `CIN001_Case1_Premium_Format_Analysis_validated.xlsx`, has been created. Its START_HERE, Assumptions, and Data_Reconciliation sheets now distinguish the 41,917 sales transactions from 104 show-only rows and report 3,277 screen-days with sales plus 11 cancelled-only financial screen-days. The five reconciled financial totals are unchanged. This corrected workbook has not yet been published to GitHub.
+
 The cleaning and analysis workbook contains: Read_Me, KPI_Summary, Data_Quality, Missing_Values, Reconciliations, Monthly_Trends, Format_Summary, and Top_20_Movies.
 
 ## Publication note
