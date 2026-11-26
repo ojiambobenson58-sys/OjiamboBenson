@@ -25,6 +25,20 @@ The 104-row difference between the 42,021-row raw ledger and the 41,917-row clea
 
 **Conclusion:** the cleaned sales extract is an appropriate sales-only fact candidate. The 104 show-only records should remain represented in the show schedule, not be appended to the transaction fact. The raw ledger should be retained as source evidence.
 
+## Sales-to-financial reconciliation
+
+The cleaned sales transactions were aggregated by `Date + Screen_ID` and compared with the screen-day financial workbook. All five measures reconcile across the full 2023–2025 period, with no material differences (floating-point residuals only):
+
+| Measure | Sales aggregate (KES) | Financial aggregate (KES) | Difference |
+|---|---:|---:|---:|
+| Gross box office | 357,880,470.00 | 357,880,470.00 | 0.00 |
+| Distributor share | 193,643,259.96 | 193,643,259.96 | 0.00 |
+| Cinema-retained box office | 164,237,210.04 | 164,237,210.04 | 0.00 |
+| Concessions revenue | 79,978,085.00 | 79,978,085.00 | 0.00 |
+| Concessions cost | 28,953,892.49 | 28,953,892.49 | 0.00 |
+
+There are 3,277 matching Date + Screen_ID combinations and 11 financial screen-days with no sales aggregate. All 11 have zero gross box office, zero retained box office, zero concessions revenue, zero completed screenings, and all scheduled screenings cancelled. These are consistent zero-revenue operating days, not unexplained reconciliation failures.
+
 ## Other exceptions and modelling cautions
 
 1. The financial file has 22 missing cells, all in two margin fields. The missing values occur on 11 screen-days with zero net revenue. A margin is undefined when its denominator is zero; preserve these as blank/NULL rather than forcing them to zero.
@@ -44,7 +58,6 @@ The 3,288-row screen-day financial CSV, case brief, analytical question bank, an
 
 ## Recommended next validation steps
 
-- Reconcile sales-side retained box office and concessions totals to the screen-day financial aggregates.
-- Verify whether zero-revenue screen-days represent no completed screenings, cancelled screenings, or other operating conditions.
 - Document the exact formulas and denominator rules for occupancy, utilization, contribution, and margin.
 - Recheck all totals after importing the full source files into MySQL and Power BI.
+- Confirm shared-cost allocation assumptions before interpreting format-level profitability.
